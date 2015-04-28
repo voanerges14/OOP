@@ -5,7 +5,7 @@ public class Device {
 
     private String name;
     private int power;
-
+//потом)
 //    @Override
 //    public String toString() {
 //        return "Device[Name: " +name + ", Power: " +power + "]";
