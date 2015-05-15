@@ -10,6 +10,7 @@ public class Device {
 //    public String toString() {
 //        return "Device[Name: " +name + ", Power: " +power + "]";
 //    }
+    //test update
 
     public int getPower() {
         return power;
