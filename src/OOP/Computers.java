@@ -18,7 +18,7 @@ public class Computers extends Device {
     }
 
     public Computers (String name, int power, int ram) { //constructor max
-        super(name,ram);
+        super(name,power);
         this.ram = ram;
     }
 
