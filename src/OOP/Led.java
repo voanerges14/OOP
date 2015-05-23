@@ -1,7 +1,7 @@
 package OOP;
 
 
-public class Led extends Tv {
+public final class Led extends Tv {
 
    private int resolution_X;
    private int resolution_Y;

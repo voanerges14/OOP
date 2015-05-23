@@ -35,6 +35,17 @@ public class Player extends Device {
         this.playerFormats = playerFormats;
     }
 
+    public String compare(Device comparedDevice) {
+       String result="";
+        if (this.getPower() > comparedDevice.getPower())
+                result=this.getName()+" used more power" + "("+this.getPower()+")" ;
+        else
+        if (this.getPower() < comparedDevice.getPower())
+                result=comparedDevice.getName()+" used more power" + "("+comparedDevice.getPower()+")" ;
+        else
+                result="The same Power";
 
+        return result;
+    }
 
 }
